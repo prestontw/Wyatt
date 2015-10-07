@@ -11,8 +11,6 @@
         android:layout_height="wrap_content"
         android:text="@string/button_string"
         android:id="@+id/button"
-        android:layout_below="@+id/textView"
-        android:layout_alignParentEnd="true"
         android:layout_marginTop="56dp" />
 
     <com.example.preston.wyatt.RecorderView
