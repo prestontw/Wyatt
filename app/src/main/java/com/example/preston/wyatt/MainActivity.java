@@ -47,4 +47,10 @@ public class MainActivity extends Activity {
 
         return super.onOptionsItemSelected(item);
     }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        RecordingModel.getInstance().hardStop();
+    }
 }
