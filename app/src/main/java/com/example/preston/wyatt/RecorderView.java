@@ -51,7 +51,7 @@ public class RecorderView extends View{
     public boolean onTouchEvent(MotionEvent event) {
 
         if (event.getAction() == MotionEvent.ACTION_DOWN) {
-            RecordingModel.getInstance().changeState();
+            RecordingModel.getInstance().changeRecordingState();
         }
 
         return super.onTouchEvent(event);
