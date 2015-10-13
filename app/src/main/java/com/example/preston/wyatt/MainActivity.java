@@ -21,6 +21,7 @@ public class MainActivity extends Activity {
             @Override
             public void onClick(View v) {
                 Toast.makeText(MainActivity.this, "Hello Wyatt", Toast.LENGTH_SHORT).show();
+                RecordingModel.getInstance().changePlaying();
             }
         });
     }
